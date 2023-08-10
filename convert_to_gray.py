@@ -14,7 +14,7 @@ if img_color is None:
 cv2.namedWindow('Color')  # can be dropped
 cv2.imshow('Color', img_color)
 
-# Stop running until any key is pressed. '0' means 0ms
+# Stop running until any key is pressed. '0' means wait in 0ms
 cv2.waitKey(0)
 # Close window named 'Color'
 cv2.destroyWindow('Color')
